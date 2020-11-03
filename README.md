@@ -1,6 +1,6 @@
 # Тестовое задание в компанию Blitz_Studio
 
-`Готовое приложение:` [http://blitz-studio.webdev-pro.ru/](http://blitz-studio.webdev-pro.ru/)
+### `Готовое приложение:` [http://blitz-studio.webdev-pro.ru/](http://blitz-studio.webdev-pro.ru/)
 
 реализовать веб-приложение на React.
 
