@@ -1,0 +1,63 @@
+.content {
+    padding: 30px 0;
+    position: relative;
+}
+
+.content h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #3c4044;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card img {
+    width: 33.33333%;
+    padding-right: 30px;
+}
+
+.card table {
+    width: 66.66666%;
+    text-align: center;
+}
+
+.card td {
+    border: 1px solid #3c4044;
+    padding: 10px 0;
+}
+
+.card td.title {
+    font-weight: 700;
+}
+
+@media (max-width: 992px) {
+    .card img {
+        width: 50%;
+    }
+
+    .card table {
+        width: 50%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 730px) {
+    .card img {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto 30px;
+        padding-right: 0;
+    }
+
+    .card table {
+        width: 100%;
+        text-align: center;
+    }
+}

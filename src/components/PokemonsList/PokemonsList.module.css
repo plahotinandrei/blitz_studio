@@ -1,0 +1,40 @@
+.content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 25%;
+    padding: 5px 0;
+}
+
+.item a {
+    color: #3c4044;
+    text-decoration: none;
+    font-size: 18px; 
+}
+
+@media (max-width: 1050px) {
+    .item {
+        width: 33.33333%;
+        padding: 5px 0;
+    }
+}
+
+@media (max-width: 780px) {
+    .item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+    .item {
+        width: 100%;
+        text-align: center;
+    }
+}

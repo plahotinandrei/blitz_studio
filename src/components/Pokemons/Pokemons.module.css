@@ -1,0 +1,43 @@
+.content {
+    padding: 30px 0;
+}
+
+.pokemons {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-top: 30px;
+}
+
+.buttons {
+    padding: 0 10px;
+}
+
+.btn {
+    outline: none;
+    margin: 0 5px;
+    border: 1px solid #3c4044;
+    color: #3c4044;
+    font-size: 18px;
+    border-radius: 3px;
+    background: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.btn:hover, .btn.active {
+    background:#3c4044;
+    color: #fff;
+}
+
+@media (max-width: 500px) {
+    .buttons {
+        text-align: center;
+        padding: 0;
+    }
+
+    .btn {
+        margin: 0 3px; 
+        padding: 5px 7px;
+    }
+}
